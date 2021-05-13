@@ -96,7 +96,7 @@ export class Quiz extends React.Component {
     let currentStep = this.state.currentStep;
     if (currentStep === 8) {
       return (
-        <button className="btn submitbutton" type="submit" type="button" onClick={this._next}>
+        <button className="btn submitbutton" type="submit" onClick={this._next}>
           Submit
         </button>
       );
