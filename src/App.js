@@ -6,9 +6,9 @@ import { FrontPage } from "./frontpage/frontpage.js";
 function App() {
   return (
     <div className="App">
-      <FrontPage />
-      {/* <Quiz /> */}
-      {/* <Background /> */}
+      {/* <FrontPage /> */}
+      <Quiz />
+      <Background />
     </div>
   );
 }
