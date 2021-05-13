@@ -6,6 +6,9 @@ import { FrontPage } from "./frontpage/frontpage.js";
 function App() {
   return (
     <div className="App">
+      <head>
+        <link rel="icon" href="/public/favicon.ico" />
+      </head>
       {/* <FrontPage /> */}
       <Quiz />
       <Background />
