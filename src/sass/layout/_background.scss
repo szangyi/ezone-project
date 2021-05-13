@@ -1,14 +1,14 @@
 @use "../abstracts/vars" as *;
-body{
+body {
   background-color: $dark;
 }
-header{
+header {
   width: 100vw;
   height: 5vw;
-  margin-bottom: .3rem;
-  margin-top: -.4rem;
+  margin-bottom: 0.3rem;
+  margin-top: -0.4rem;
   z-index: 20;
-  background-image: url('../../background/navig.png');
+  background-image: url("../../background/navig.png");
   background-size: 100%;
   background-repeat: no-repeat;
   border-bottom: 1px solid rgba(95, 87, 127, 0.267);
@@ -16,29 +16,28 @@ header{
 .backgroundanim {
   z-index: -10;
   text-align: center;
- background-color: $dark;
- color: $orange;
- width: 100vw;
- height: 96vh;
- overflow: hidden;
+  background-color: $dark;
+  color: $orange;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
-.bck-text{
-  margin: -.6rem 0 0 0;
+.bck-text {
+  margin: -0.6rem 0 0 0;
   padding: 0;
   font-family: "Uniform-Pro-Blk";
-  font-size: 6.85rem;
+  font-size: 8vw;
   overflow: hidden;
   text-transform: uppercase;
 }
-.filled{
+.filled {
   z-index: -9;
 }
-.empty{
+.empty {
   color: $dark;
   -webkit-text-stroke: 2px $orange;
   z-index: -12;
 }
-
 
 .sentence {
   animation: vertical-unfold 1.5s ease-out 1;
@@ -49,8 +48,8 @@ header{
     margin-top: -10rem;
     // opacity: 0;
   }
-  100%{
-    margin-top: -.6rem;
+  100% {
+    margin-top: -0.6rem;
     // opacity: 0;
   }
 }

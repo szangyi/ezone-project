@@ -84,6 +84,9 @@ export class Quiz extends React.Component {
   nextButton() {
     let currentStep = this.state.currentStep;
     if (currentStep < 9) {
+      if (document.querySelector(".btn-primary")) {
+        document.querySelector(".btn-primary").style.display = "inline-block";
+      }
       return (
         <button className="btn btn-primary float-right" type="button" onClick={this._next}>
           Next
@@ -95,6 +98,7 @@ export class Quiz extends React.Component {
   submitbutton() {
     let currentStep = this.state.currentStep;
     if (currentStep === 8) {
+      document.querySelector(".btn-primary").style.display = "none";
       return (
         <button className="btn submitbutton" type="submit" onClick={this._next}>
           Submit
