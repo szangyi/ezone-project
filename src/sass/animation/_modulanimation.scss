@@ -62,6 +62,21 @@
   }
 }
 
+.background-fadeout {
+  animation: background-fadeout 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-fadeout {
+  0% {
+    background: #16152b;
+  }
+
+  100% {
+    background: none;
+  }
+}
+
 .slideup {
   animation: slideup 2s;
   animation-fill-mode: forwards;
