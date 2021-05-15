@@ -225,7 +225,7 @@ input.switch {
 .thankyou-animated {
   font-size: 3rem;
   font-family: "Uniform-Pro-Blk";
-  color: $green;
+  // color: $green;
   animation: showtext 1s 1 forwards ease-in;
 }
 
@@ -234,7 +234,7 @@ input.switch {
     opacity: 0;
   }
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
