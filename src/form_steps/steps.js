@@ -270,13 +270,13 @@ export class Thankyou extends React.Component {
 
     return (
       <div className="thankyou">
-        <h3 className="headline-animated" data-split-letters>
+        <h3 className="thankyou-animated" data-split-letters>
           THANK YOU FOR JOINING!
         </h3>
         {/* <h3 className="thankyou-animated TextToAnimate">THANK YOU FOR JOINING!</h3> */}
         <p>You're now ready to receive more targeted content.</p>
-        <button className="btn-orange" href="https://ezone-esports.com/">
-          Back to homepage
+        <button className="btn-orange">
+          <a href="https://ezone-esports.com/"> Back to homepage</a>
         </button>
       </div>
     );

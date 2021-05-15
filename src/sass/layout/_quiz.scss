@@ -206,28 +206,20 @@ input.switch {
 
 .thankyou {
   padding: 3rem 2rem 2rem 2rem;
-
   h3 {
     color: $purple;
   }
-}
-.thankyou p {
-  font-family: "Uniform-Pro-Med";
-  padding: 3rem 2rem 2rem 2rem;
-}
-.thankyou a {
-  border: 2px solid $orange;
-  border-radius: 2rem;
-  width: min-content;
-  align-self: center;
-  padding: 0.6rem 2rem;
-  color: $orange;
-  text-decoration: none;
-}
-.thankyou a:hover {
-  background-color: $orange;
-  opacity: 60%;
-  color: $dark;
+  p {
+    font-family: "Uniform-Pro-Med";
+    padding: 3rem 2rem 2rem 2rem;
+  }
+  a {
+    color: $orange;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $dark;
+  }
 }
 
 .thankyou-animated {
